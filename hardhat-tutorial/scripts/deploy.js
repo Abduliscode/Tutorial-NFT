@@ -4,7 +4,7 @@ const { WHITELIST_CONTRACT_ADDRESS, METADATA_URL } = require("../constants");
 
  async function main() {
   // Address of the whitelist contract that you deployed in the previous module
-  const whitelistContract = WHITELIST_CONTRACT_ADDRESS;
+  const whitelistContract = "0x14d505db393670bF4529Df640d0D890264b69fa0";
   // URL from where we can extract the metadata for a Crypto Dev NFT
   const metadataURL = METADATA_URL;
   /*
